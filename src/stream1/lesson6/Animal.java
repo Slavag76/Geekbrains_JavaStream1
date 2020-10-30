@@ -23,6 +23,7 @@ public class Animal {
 
 
     public boolean runrun(int run_distance) {
+        System.out.println("Пробежка");
         if (run_distance < maxRun) {
             return true;
         } else {
@@ -31,6 +32,7 @@ public class Animal {
     }
 
     public boolean swimswim(int swim_distance) {
+        System.out.println("Плавание");
         if (swim_distance < maxSwim) {
             return true;
         } else {
@@ -39,6 +41,7 @@ public class Animal {
     }
 
     public boolean jumpjump(int jump_distance) {
+        System.out.println("Прыжки");
         if (jump_distance < maxJump) {
             return true;
         } else {
